@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="stylesheet" href="./css/form1.css">
+    <meta charset="UTF-8">
+    <title>アンケート</title>
+</head>
+<body>
+    <header>
+        アンケート<br>
+        <hr color="blue">
+    </header>
+    
+    <div class="item">
+        <div class="items">
+            AxiZの研修をご利用いただき、誠にありがとうございます。<br>
+            以下の内容の記入及び送信をして頂けると幸いです。
+        </div>
+
+        <div>
+            <form action="" method="get" class="">
+                <div class="items">
+                    <label>会社名</label><br>
+                    <input type="text" class="input" name="company" placeholder="例　株式会社テクノコア" required><br>
+                </div>
+
+                <div class="items">
+                    <label>お名前</label><br>
+                    <input type="text" class="input" name="name" placeholder="例　手久野　興亜" required><br>
+                </div>
+
+                <div class="items">
+                    <label>メールアドレス</label><br>
+                    <input type="text" class="input"name="mail" placeholder="例　example@axiz.co.jp"><br>
+                </div>
+
+                <div class="items">
+                    <label>年齢</label><br>
+                    <input type="number" name="age" min="18" max="100" step="1" style="width: 40px;"  value="23"><br>
+                </div>
+
+                <div class="items">
+                    <label>受講コース</label><br>
+                    <label class="btn"><input type="radio" name="cours" value="JAVA" checked>Java</label>
+                    <label class="btn"><input type="radio" name="cours" value="INFRA" >インフラ</label><br>
+                </div>
+
+                <div class="items">
+                    <label>会場</label><br>
+                    <select name="place" class="input">
+                        <option value="1">日本橋A教室</option>
+                        <option value="2">日本橋B教室</option>
+                        <option value="3">赤坂教室</option>
+                        <option value="4">名古屋教室</option>
+                        <option value="5">代々木教室</option>
+                        <option value="6">沖縄教室</option>
+                    </select>
+                </div>
+
+                <div class="items">
+                    <label>詳しく学びたい内容(複数回答可)</label><br>
+                    <div class="slect">
+                        <div>
+                            <label class="btn"><input type="checkbox" name="subject1">ビジネスマナー</label>
+                        </div>
+                        <div>
+                            <label class="btn"><input type="checkbox" name="subject2">HTML/CSS</label>    
+                        </div> 
+                        <div>             
+                            <label class="btn"><input type="checkbox" name="subject3">JavaScript</label>
+                        </div>
+                        <div>
+                            <label class="btn"><input type="checkbox" name="subject4">Java</label>
+                        </div>
+                        <div>
+                            <label class="btn"><input type="checkbox" name="subject5">データベース</label>
+                        </div>
+                        <div>
+                            <label class="btn"><input type="checkbox" name="subject6">Linux</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <label>ご意見</label><br>
+                    <textarea name="text"  class="input" rows="10"  placeholder="自由にご記入ください"></textarea>                
+                </div>
+
+                <button type="submit">送信する</button>
+
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <hr color="blue"><br>
+        Copyright(C) AxiZ
+
+    </footer>
+    
+</body>
+</html>

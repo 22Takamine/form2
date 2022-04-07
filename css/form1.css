@@ -1,0 +1,28 @@
+body{
+    text-align:center;
+    line-height: 20px;
+    background-color: aqua;
+}
+
+.item{
+    display: inline-block;
+    border:  1px solid;
+    border-color: black;
+    background-color: white;
+    text-align: left;
+    padding: 30px 40px 30px 20px;
+
+}
+
+.items{
+    margin-bottom: 20px;
+    
+    
+}
+.input{
+    width: 100%;
+}
+.select{
+    display: flex;
+    flex-flow: column;
+}
