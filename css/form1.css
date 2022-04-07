@@ -9,6 +9,7 @@ header{
 .item{
     display: inline-block;
     border:  1px solid;
+    border-radius: 20px;
     border-color: black;
     background-color: white;
     text-align: left;
@@ -23,6 +24,7 @@ header{
 }
 .input{
     width: 100%;
+    border-radius: 5px;
 }
 .select{
     display: flex;
