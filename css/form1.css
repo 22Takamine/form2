@@ -9,7 +9,7 @@ header{
 .item{
     display: inline-block;
     border:  1px solid;
-    border-radius: 20px;
+    border-radius: 10px;
     border-color: black;
     background-color: white;
     text-align: left;
@@ -29,4 +29,10 @@ header{
 .select{
     display: flex;
     flex-flow: column;
+}
+.text{
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
 }
